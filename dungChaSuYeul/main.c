@@ -13,5 +13,5 @@ int main(void)
 		ret[i] = ret[i-1] + d;	// i번째 항은 i-1번째 항에 공차(d)를 더하면 됨
 	}
 
-	printf("%d", ret[4]);
+	printf("%d", ret[4]);	// 결과값 : 23
 }
