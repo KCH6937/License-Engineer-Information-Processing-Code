@@ -23,4 +23,4 @@ int main(void)
 		
 		arr[j + 1] = key;	// key값에 들어있던 변수를 서로 교환 후, i값 증가
 	}
-}
+}	
