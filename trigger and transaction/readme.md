@@ -1,5 +1,6 @@
 # 트리거(trigger)
-- 문법   
+- 트리거 문법   
+>  
 CREATE [ OR REPLACE ] TRIGGER trigger_name  
 [AFTER/BEFORE]  [이벤트1] [OR 이벤트2] ……  
    ON table_name  
