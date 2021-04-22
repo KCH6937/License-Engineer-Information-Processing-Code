@@ -36,7 +36,7 @@ FOR EACH ROW : 이 옵션이 있으면 행 트리거가 된다.
 	
 - 트랜잭션 문법  
 ```
-	BEGIN TRAN  
-	 SQL문 ...  
-	COMMIT TRAN (또는 COMMIT WORK 또는 ROLLBACK TRAN)  
+BEGIN TRAN  
+ SQL문 ...  
+COMMIT TRAN (또는 COMMIT WORK 또는 ROLLBACK TRAN)  
 ```
