@@ -1,6 +1,6 @@
 # 트리거(trigger)
 - 트리거 문법   
->  
+```
 CREATE [ OR REPLACE ] TRIGGER trigger_name  
 [AFTER/BEFORE]  [이벤트1] [OR 이벤트2] ……  
    ON table_name  
@@ -11,7 +11,7 @@ BEGIN
    -- 트리거 실행 코드  
 EXCEPTION  
 END;  
-
+```
 BEFORE : INSERT, UPDATE, DELETE문이 실행되기 전에 트리거가 실행 된다.  
 AFTER : INSERT, UPDATE, DELETE문이 실행된 후 트리거가 실행 된다.  
 trigger_event : INSERT, UPDATE, DELETE 중에서 한 개 이상 올 수 있다.  
@@ -35,7 +35,8 @@ FOR EACH ROW : 이 옵션이 있으면 행 트리거가 된다.
 	2. Rollback : 트랜잭션의 일부가 정상적으로 처리되었더라도 트랜잭션의 원자성을 구현하기 위해 이 트랜잭션이 행한 모든 연산을 취소(Undo)하는 연산
 	
 - 트랜잭션 문법  
->  
+```
 	BEGIN TRAN  
 	 SQL문 ...  
 	COMMIT TRAN (또는 COMMIT WORK 또는 ROLLBACK TRAN)  
+```
