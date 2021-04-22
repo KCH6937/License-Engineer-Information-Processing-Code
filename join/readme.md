@@ -3,20 +3,20 @@
 - - -
 - SELECT <열 목록>  
 FROM <첫 번째 테이블>   
-[조인종류] JOIN <두 번째 테이블>  // ex) [INNER, OUTER, LEFT OUTER, RIGHT OUTER]
+[조인종류] JOIN <두 번째 테이블>  // ex) [INNER, OUTER, LEFT OUTER, RIGHT OUTER]  
 ON <조인될 조건>  
 [WHERE 검색조건]  
 내부조인(Inner Join)
 ---
 - 예시
 
-employees 테이블
+employees 테이블  
 ![2](https://blog.advenoh.pe.kr/static/7994de03d4876b75f03a5a1c5f5a0bc7/d703b/image_11.png)
 
-departments 테이블  
+departments 테이블    
 ![3](https://blog.advenoh.pe.kr/static/42cce7511cf3a4ab4cb4af7532a3bb20/6ddef/image_21.png)
 
-내부조인 결과
+내부조인 결과  
 ![4](https://blog.advenoh.pe.kr/static/a3ac3bd9f4b75bb80310229cdcf003b6/91af2/22B68707-E0B8-4DA8-82FA-3CFEE9B05EFD.png)   
 
 * 코드  
